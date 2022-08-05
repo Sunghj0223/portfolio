@@ -1,0 +1,226 @@
+footer {
+	padding-top: 100px;
+	background-color: #24272C;
+	color: #fff;
+}
+footer .inner{
+	position: relative;
+}
+.footer-wrapper {
+	border-top: 1px solid #fff;
+	padding: 0 16px;
+}
+
+.f-top {
+	display: block;
+	padding-top: 20px;
+}
+
+.f-top button {
+	font-size: 24px;
+	font-weight: 800;
+	color: #fff;
+	padding: 15px 0;
+	position: relative;
+}
+
+.f-top button::after {
+	content: "";
+	display: block;
+	position: absolute;
+	width: 25px;
+	height: 19px;
+	background: url(../img/footer_icon.svg) no-repeat 0 0 / 100%;
+	left: 201%;
+	top: 39%;
+}
+
+.f-top button.off::after {
+	background-position: left bottom;
+}
+
+.f-top button.off + ul{
+	display: none;
+}
+.f-top ul {
+	width: 40%;
+}
+
+.f-top li > span {
+	font-size: 18px;
+	font-weight: 600;
+	color: #fff;
+}
+
+.f-top li {
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 2;
+	margin-left: 1%;
+	color: #d5d5d5;
+}
+
+.f-top li:first-child {
+	display: block;
+}
+
+.f-bot {
+	font-size: 14px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	padding-bottom: 20px;
+}
+
+.f-bot ul {
+	width: 40%;
+	padding-top: 2%;
+}
+
+.f-bot li {
+	display: inline-block;
+	padding-right: 6%;
+	line-height: 1.8;
+	font-weight: 400;
+	position: relative;
+}
+.f-bot li a {
+	color: #fff;
+}
+
+.f-bot ul li:before {
+	content: "";
+	display: block;
+	position: absolute;
+	width: 1px;
+	height: 14px;
+	background-color: #fff;
+	top: 5px;
+	right: 11px;
+}
+
+.f-bot ul li.none:before {
+	display: none;
+}
+
+.f-brandsite {
+	position: relative;
+}
+
+.f-brandsite .site {
+	color: #fff;
+	padding: 6px;
+	font-size: 15px;
+	font-weight: 600;
+	width: 270px;
+	height: 35px;
+	font-family: 'Noto Sans Kr', "Red Hat Display" , sans-serif;
+}
+
+.site option {
+	color: #24272C;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.f-brandsite .plus {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	z-index: 1;
+}
+@media (max-width: 1171px) {
+
+	.f-bot ul li.show:before {
+		display: block;
+	}
+}
+
+@media (max-width: 1023px) {
+	.f-top li {
+		margin-right: 3%;
+		font-size: 12px;
+	}
+	.f-top li > span {
+		font-size: 16px;
+	}
+	.f-bot {
+		font-size: 13px;
+	}
+	
+	.f-brandsite .site {
+		width: 230px;
+		height: 35px;
+		font-size: 14px;
+	}
+
+}
+@media (max-width: 767px) {
+	.footer-wrapper {
+		background-color: #24272C;
+		padding: 20px 16px;
+	}
+	.f-top ul {
+		width: 78%;
+	}
+	.f-bot {
+		flex-direction: column;
+		align-items: flex-start;
+		font-size: 12px;
+	}
+	.f-brandsite {
+		margin-top: 20px;
+	}
+	
+}
+
+@media (max-width: 671px) {
+	.f-bot ul {
+		width: 70%;
+	}
+	.f-bot ul li.show:before {
+		display: none;
+	}
+}
+@media (max-width: 610px) {
+	/*.f-bot ul li.show:before {
+		display: no;
+	}*/
+	.f-bot ul {
+		width: 80%;
+	}
+	.f-bot ul li:before {
+		top: 3px;
+	}
+}
+@media (max-width: 538px)  {
+	.f-bot ul {
+		width: 100%;
+	}
+}
+
+@media (max-width: 520px) {	
+	.f-brandsite .site {
+		width: 336px;
+		height: 35px;
+		font-size: 12px;
+	}
+/*	.f-brandsite .plus {
+		left: 96%;
+	}*/
+
+}
+
+
+@media (max-width: 422px) {
+	.f-bot ul li.show:before {
+		display: block;
+	}
+}
+
+@media (max-width: 387px) {
+	.f-top ul {
+		width: 85%;
+	}
+}

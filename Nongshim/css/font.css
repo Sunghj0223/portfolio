@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: 'Red Hat Display';
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+	src: url(../font/RedHat/RedHatDisplay-Light.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'Red Hat Display';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(../font/RedHat/RedHatDisplay-Regular.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'Red Hat Display';
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+	src: url(../font/RedHat/RedHatDisplay-Medium.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'Red Hat Display';
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url(../font/RedHat/RedHatDisplay-SemiBold.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'Red Hat Display';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url(../font/RedHat/RedHatDisplay-Bold.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'Red Hat Display';
+	font-style: normal;
+	font-weight: 800;
+	font-display: swap;
+	src: url(../font/RedHat/RedHatDisplay-ExtraBold.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'Red Hat Display';
+	font-style: normal;
+	font-weight: 900;
+	font-display: swap;
+	src: url(../font/RedHat/RedHatDisplay-Black.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'NanumSquare';
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+	src: url(../font/NanumSquare/NanumSquare_acL.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'NanumSquare';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(../font/NanumSquare/NanumSquare_acR.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'NanumSquare';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url(../font/NanumSquare/NanumSquare_acB.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'NanumSquare';
+	font-style: normal;
+	font-weight: 800;
+	font-display: swap;
+	src: url(../font/NanumSquare/NanumSquare_acEB.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'Noto Sans Kr';
+	font-style: normal;
+	font-weight: 100;
+	font-display: swap;
+	src: url(../Noto/NotoSansKR-Thin.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'Noto Sans Kr';
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+	src: url(../Noto/NotoSansKR-Light.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'Noto Sans Kr';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(../Noto/NotoSansKR-Reguler.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'Noto Sans Kr';
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+	src: url(../Noto/NotoSansKR-Medium.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'Noto Sans Kr';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url(../Noto/NotoSansKR-Bold.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'Noto Sans Kr';
+	font-style: normal;
+	font-weight: 900;
+	font-display: swap;
+	src: url(../Noto/NotoSansKR-Black.woff) format('woff');
+}
